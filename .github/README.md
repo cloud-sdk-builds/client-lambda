@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-lambda`](https://www.npmjs.com/package/@aws-sdk/client-lambda/v/3.1082.0).
+[`@aws-sdk/client-lambda`](https://www.npmjs.com/package/@aws-sdk/client-lambda/v/3.1083.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-lambda - [https://cloud-sdk-builds.github.io/?sdk=client-lambda](https://cloud-sdk-builds.github.io/?sdk=client-lambda)
-- @aws-sdk/client-lambda v3.1082.0 - [https://cloud-sdk-builds.github.io/?sdk=client-lambda&version=3.1082.0](https://cloud-sdk-builds.github.io/?sdk=client-lambda&version=3.1082.0)
+- @aws-sdk/client-lambda v3.1083.0 - [https://cloud-sdk-builds.github.io/?sdk=client-lambda&version=3.1083.0](https://cloud-sdk-builds.github.io/?sdk=client-lambda&version=3.1083.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lambda@3.1082.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lambda@3.1083.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-HXqyv0Yc2gK5JuMQJpR3pwbjxc+l/mqUKEZ65mhQ6qvIgvO/wbFx/G7WYUC22GTH
+sha384-/Rw3k5iLbPJAWPyC1y4z1r0L7bsc4KH0svR/SPWNma+pxmM9unhlau9YyUxX1NJe
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-lambda": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lambda@3.1082.0/index.min.mjs"
+            "@aws-sdk/client-lambda": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lambda@3.1083.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lambda@3.1082.0/index.min.mjs": "sha384-HXqyv0Yc2gK5JuMQJpR3pwbjxc+l/mqUKEZ65mhQ6qvIgvO/wbFx/G7WYUC22GTH"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lambda@3.1083.0/index.min.mjs": "sha384-/Rw3k5iLbPJAWPyC1y4z1r0L7bsc4KH0svR/SPWNma+pxmM9unhlau9YyUxX1NJe"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-lambda": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lambda@3.1082.0/index.min.mjs"
+                        "@aws-sdk/client-lambda": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lambda@3.1083.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lambda@3.1082.0/index.min.mjs": "sha384-HXqyv0Yc2gK5JuMQJpR3pwbjxc+l/mqUKEZ65mhQ6qvIgvO/wbFx/G7WYUC22GTH"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lambda@3.1083.0/index.min.mjs": "sha384-/Rw3k5iLbPJAWPyC1y4z1r0L7bsc4KH0svR/SPWNma+pxmM9unhlau9YyUxX1NJe"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1082.0`)
+* Always pin to a specific version (`@3.1083.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-lambda/blob/refs/tags/3.1082.0/LICENSE
+https://github.com/cloud-sdk-builds/client-lambda/blob/refs/tags/3.1083.0/LICENSE
 ```
 
 ---
